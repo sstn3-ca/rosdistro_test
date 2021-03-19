@@ -1,0 +1,13 @@
+%YAML 1.1
+# ROS index file
+# see REP 143: http://ros.org/reps/rep-0143.html
+---
+distributions:
+  foxy:
+    distribution: [foxy/distribution.yaml]
+    distribution_cache: http://repo.ros2.org/rosdistro_cache/foxy-cache.yaml.gz
+  noetic:
+    distribution: [noetic/distribution.yaml]
+    distribution_cache: http://repositories.ros.org/rosdistro_cache/noetic-cache.yaml.gz
+type: index
+version: 3
