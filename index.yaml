@@ -5,9 +5,11 @@
 distributions:
   foxy:
     distribution: [foxy/distribution.yaml]
-    distribution_cache: http://repo.ros2.org/rosdistro_cache/foxy-cache.yaml.gz
+#    distribution_cache: http://repo.ros2.org/rosdistro_cache/foxy-cache.yaml.gz
+    distribution_cache: http://172.32.0.227/rosdistro_cache/foxy-cache.yaml.gz
   noetic:
     distribution: [noetic/distribution.yaml]
-    distribution_cache: http://repositories.ros.org/rosdistro_cache/noetic-cache.yaml.gz
+#    distribution_cache: http://repositories.ros.org/rosdistro_cache/noetic-cache.yaml.gz
+    distribution_cache: http://172.32.0.215/rosdistro_cache/noetic-cache.yaml.gz
 type: index
 version: 3
