@@ -240,6 +240,13 @@ repositories:
       url: https://github.com/sstn3-ca/ros_noetic_sstn3_test_01-release.git
       version: 0.0.3-1
     status: maintained
+  ros_noetic_sstn3_test_02:
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/sstn3-ca/ros_noetic_sstn3_test_02-release.git
+      version: 0.0.5-1
+    status: maintained
   rosconsole:
     release:
       tags:
