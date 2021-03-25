@@ -2593,32 +2593,32 @@ repositories:
   #     url: https://github.com/ros2/rcl.git
   #     version: foxy
   #   status: maintained
-  # rcl_interfaces:
+  rcl_interfaces:
   #   doc:
   #     type: git
   #     url: https://github.com/ros2/rcl_interfaces.git
   #     version: foxy
-  #   release:
-  #     packages:
-  #     - action_msgs
-  #     - builtin_interfaces
-  #     - composition_interfaces
-  #     - lifecycle_msgs
-  #     - rcl_interfaces
-  #     - rosgraph_msgs
-  #     - statistics_msgs
-  #     - test_msgs
-  #     tags:
-  #       release: release/foxy/{package}/{version}
-  #     url: https://github.com/ros2-gbp/rcl_interfaces-release.git
-  #     version: 1.0.0-1
+    release:
+      packages:
+      - action_msgs
+      - builtin_interfaces
+      - composition_interfaces
+      - lifecycle_msgs
+      - rcl_interfaces
+      - rosgraph_msgs
+      - statistics_msgs
+      - test_msgs
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/ros2-gbp/rcl_interfaces-release.git
+      version: 1.0.0-1
   #   source:
   #     test_abi: true
   #     test_pull_requests: true
   #     type: git
   #     url: https://github.com/ros2/rcl_interfaces.git
   #     version: foxy
-  #   status: maintained
+    status: maintained
   # rcl_logging:
   #   doc:
   #     type: git
