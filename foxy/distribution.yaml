@@ -189,8 +189,9 @@ repositories:
     release:
       tags:
         release: release/foxy/{package}/{version}
-      url: https://github.com/sstn3-ca/ros_foxy_test_py-release.git
+      url: https://github.com/sstn3-ca/ros_foxy_test_py-release-2.git
       version: 0.0.1-1
+    status: maintained
   ros_workspace:
     release:
       tags:
