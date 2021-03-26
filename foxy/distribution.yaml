@@ -185,6 +185,13 @@ repositories:
       url: https://github.com/sstn3-ca/ros_foxy_sstn3_test_003-release.git
       version: 0.0.4-1
     status: maintained
+  ros_foxy_sstn3_test_004:
+    release:
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/sstn3-ca/ros_foxy_sstn3_test_004-release.git
+      version: 0.0.3-2
+    status: maintained
   ros_foxy_test_py:
     release:
       tags:
