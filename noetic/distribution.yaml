@@ -238,7 +238,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/sstn3-ca/ros_noetic_sstn3_test_01-release.git
-      version: 0.0.3-1
+      version: 0.0.3-2
     status: maintained
   ros_noetic_sstn3_test_02:
     release:
