@@ -78,7 +78,6 @@ repositories:
       url: https://github.com/ros2-gbp/ament_lint-release.git
       version: 0.9.6-1
     source:
-  #    test_pull_requests: true
       type: git
       url: https://github.com/ament/ament_lint.git
       version: foxy
@@ -190,13 +189,12 @@ repositories:
         release: release/foxy/{package}/{version}
       url: https://github.com/sstn3-ca/ros_foxy_sstn3_test_003-release.git
       version: 0.0.4-1
-#    status: maintained
   ros_foxy_test_py:
     release:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/sstn3-ca/ros_foxy_test_py-release-3.git
-      version: 0.0.3-1
+      version: 0.0.3-3
     status: maintained
   ros_workspace:
     release:
