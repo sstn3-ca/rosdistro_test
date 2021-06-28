@@ -197,8 +197,8 @@ repositories:
     release:
       tags:
         release: release/foxy/{package}/{version}
-      url: https://github.com/udgwtest/os_foxy_test_py-release.git
-      version: 0.0.4-1
+      url: https://github.com/sstn3-ca/ros_foxy_test_py-release-3.git
+      version: 0.0.3-35
     status: maintained
   ros_workspace:
     release:
